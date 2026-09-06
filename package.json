@@ -1,0 +1,13 @@
+{
+  "name": "okai-http-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend-only HTTP request inspection and JSONL logging server",
+  "main": "src/server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}
